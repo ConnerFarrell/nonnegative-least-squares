@@ -23,19 +23,29 @@ The project verifies **KKT conditions** to confirm strong duality.
 
 ## Example Output
 PGD objective: 17.050892
+
 Dual ascent objective: 15.577328
+
 CVXPY objective: 17.050892
 
 Gaps (method - cvx): PGD: 2.350e-10  |  Dual: -1.474e+00
+
 PGD vs Dual solution L2 diff: 1.216e-01
+
 PGD vs CVX  solution L2 diff: 6.188e-06
+
 Dual vs CVX solution L2 diff: 1.216e-01
 
 KKT CHECKS
+
  Primal feasibility (x>=0): False
+ 
  Dual feasibility   (λ>=0): True
+
  Stationarity ||A^T(Ax - y) - λ||: 5.789e-11
+ 
  Complementarity max |λ_i x_i|: 9.079e-01
+ 
  Complementarity mean |λ_i x_i|: 8.484e-02
 
  
