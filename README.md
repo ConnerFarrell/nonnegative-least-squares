@@ -3,9 +3,10 @@
 ## Overview
 This project implements algorithms for solving the **Nonnegative Least Squares (NNLS)** problem:
 
-\[
+$$
 \min_x \tfrac{1}{2} \|Ax - y\|^2 \quad \text{s.t. } x \geq 0
-\]
+$$
+
 
 Both **primal** and **dual** approaches are developed from scratch and compared against a CVXPY baseline.  
 The project verifies **KKT conditions** to confirm strong duality.
