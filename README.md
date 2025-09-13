@@ -23,7 +23,6 @@ The project verifies **KKT conditions** to confirm strong duality.
 
 ## Example Output
 PGD objective: 17.050892
-
 Dual ascent objective: 15.577328
 
 CVXPY objective: 17.050892
